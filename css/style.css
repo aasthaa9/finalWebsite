@@ -1,0 +1,287 @@
+body{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+padding-top: 50px;
+background-color: #626567;
+}
+.navbar-default{
+  background: #1B4F72;
+}
+.navbar-brand{
+  margin-bottom: 20px;
+  color: black;
+  font-family: 'Courgette', cursive;
+  font-size: 25px;
+}
+.fa-home{
+  font-size: 25px;
+  padding-left: 12px;
+  color: black;
+}
+.navbar-nav{
+  margin-top: 12px;
+  font-family: 'Domine', serif;
+  font-size: 20px;
+  color: black;
+}
+.fa-twitter{
+  font-size: 30px;
+  padding-right: 15px;
+  color: white;
+  margin-top: 10px;
+}
+.fa-facebook{
+  font-size: 30px;
+  padding-right: 15px;
+  color: white;
+  margin-top: 10px;
+}
+.fa-google-plus{
+  font-size: 30px;
+  padding-right: 20px;
+  color: white;
+  margin-top: 10px;
+}
+.heading{
+font-family: 'Francois One', sans-serif;
+color: #641E16;
+}
+.para{
+font-family: 'Karla', sans-serif;
+color: black;
+}
+.box{
+  display: inline-block;
+  transition: background 200ms linear 0s;
+}
+.fa-creative-commons{
+font-size: 50px;
+margin-left: 100px;
+color: #17202A;
+
+}
+.fa-window-restore{
+  font-size: 50px;
+  margin-left: 100px;
+  color: #17202A;
+}
+.fa-users{
+  font-size: 50px;
+  margin-left: 100px;
+  color: #17202A;
+}
+.fa-angellist{
+  font-size: 50px;
+  margin-left: 100px;
+  color: #17202A;
+}
+.steps{
+  font-family: 'Barrio', cursive;
+  font-size: 25px;
+  color: grey;
+}
+.proImg
+{
+  height: 300px;
+  width: 350px;
+  margin-left: 50px;
+}
+.proImg:hover {
+  border: 3px solid black;
+}
+.pName{
+  font-family: 'Bahiana', cursive;
+}
+.modifyButton{
+  border-radius: 30px;
+  margin-bottom: 20px;
+  background-color: grey;
+  color: white;
+}
+.img1{
+  width: 350px;
+  height: 300px;
+  padding-bottom: 20px;
+}
+.hovereffect {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.hovereffect .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transform: translate(460px, -100px) rotate(180deg);
+  -ms-transform: translate(460px, -100px) rotate(180deg);
+  transform: translate(460px, -100px) rotate(180deg);
+  -webkit-transition: all 0.2s 0.4s ease-in-out;
+  transition: all 0.2s 0.4s ease-in-out;
+}
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+}
+.hovereffect h2 {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  font-size: 35px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6);
+}
+.hovereffect a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px solid #fff;
+  margin: 50px 0 0 0;
+  background-color: transparent;
+  -webkit-transform: translateY(-200px);
+  -ms-transform: translateY(-200px);
+  transform: translateY(-200px);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.hovereffect a.info:hover {
+  box-shadow: 0 0 5px #fff;
+}
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition-delay: 0s;
+  transition-delay: 0s;
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+}
+.hovereffect:hover h2 {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+.hovereffect:hover a.info {
+  -webkit-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+.Fimg
+{
+  margin-left: 80px;
+}
+.fName{
+font-family: 'Righteous', cursive;
+}
+.loc{
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  color: #626567
+}
+.fa-facebook-square
+{
+  font-size: 25px;
+  margin-left: 50px;
+  padding: 15px;
+}
+.fa-facebook-square a:hover
+{
+  background-color: blue;
+}
+.fa-twitter-square
+{
+  font-size: 25px;
+  padding: 15px;
+}
+.fa-linkedin-square{
+  font-size: 25px;
+  padding: 15px;
+}
+.fa-facebook-official{
+  font-size:30px;
+  padding-left:10px;
+  margin-bottom:20px;
+}
+.fa-youtube{
+  font-size:30px;
+}
+.fa-instagram{
+  font-size:30px;
+}
+#map {
+  height: 450px;
+  width: 100%;
+  position: relative;
+}
+.contact-container{
+  position: relative;
+  margin-left: 10px;
+}
+.add{
+  overflow: hidden;
+  position: absolute;
+  top: 150px;
+  z-index: 10;
+  background-color: white;
+  border: solid;
+  width:23%;
+  height: 300px;
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 20px;
+  font-family: 'Pangolin', cursive;
+}
+ul.fotter {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li.fot {
+    float: left;
+}
+
+li.fot a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.fot a:hover {
+    background-color: #111;
+    cursor: pointer;
+}
+li.foticon a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    }
+li.foticon a:hover {
+    background-color: #111;
+}
+li.foticon{
+  float: right;
+}
